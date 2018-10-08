@@ -56,10 +56,10 @@
 			children = (
 				57B39348216B8C3C00241301 /* AppDelegate.swift */,
 				57B3934A216B8C3C00241301 /* TodoListViewController.swift */,
+				57B39354216B8C4000241301 /* Info.plist */,
 				57B3934C216B8C3C00241301 /* Main.storyboard */,
 				57B3934F216B8C4000241301 /* Assets.xcassets */,
 				57B39351216B8C4000241301 /* LaunchScreen.storyboard */,
-				57B39354216B8C4000241301 /* Info.plist */,
 			);
 			path = Todoey;
 			sourceTree = "<group>";

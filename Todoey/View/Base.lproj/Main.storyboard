@@ -33,7 +33,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Todoey" id="iRf-V3-dFF">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="DgW-fT-NfH">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="66W-k4-8Ir" id="4Ss-h4-a5a"/>
                             </connections>
@@ -80,12 +79,14 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Items" id="nFg-fE-VEW">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="yw7-B7-uEh">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="rvQ-oE-zQu" id="QRC-qx-5oI"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="searchBar" destination="KAP-s7-abf" id="Vaa-Ff-tze"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WEn-Av-UHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -96,8 +97,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Kc-k6-kt0" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="29v-E8-JuZ">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="29v-E8-JuZ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.40784313725490196" green="0.50588235294117645" blue="0.6470588235294118" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
